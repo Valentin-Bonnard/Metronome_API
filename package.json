@@ -1,0 +1,49 @@
+{
+    "name": "metronome_api",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Domotique api",
+    "keywords": [],
+    "dependencies": {
+        "errorhandler": "^1.4.3",
+        "express": "^4.14.0",
+        "method-override": "^2.3.6",
+        "morgan": "^1.7.0",
+        "socket.io": "1.7.3",
+        "bcrypt": "~0.7.7",
+        "connect-mongo": "~0.4.0"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-contrib-concat": "^1.0.0",
+        "grunt-contrib-uglify": "^1.0.0",
+        "grunt-contrib-cssmin": "^1.0.0",
+        "grunt-contrib-imagemin": "^1.0.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-cli": "0.1.13",
+        "request": "~2.33.0",
+        "time-grunt": "~0.1.1",
+        "load-grunt-tasks": "~0.2.0",
+        "chai": "^3.5.0",
+        "chai-http": "^2.0.1",
+        "mocha": "^2.4.5"
+    },
+    "engines": {
+        "node": "7.5.0",
+        "npm": "4.1.2"
+    },
+    "scripts": {
+        "debug": "node debug app.js",
+        "start": "clear;node app.js",
+        "test": "clear;node tests/main.js"
+    },
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Bonnard Valentin",
+    "license": "ISC"
+}
